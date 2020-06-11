@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Angela Digital Contact Me</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 960px)" href="css/desktop_min960px.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/angeladigital.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-inside">
+            <header>
+                <div class="wrapper">
+                    <nav>
+                        <i class="fas fa-bars" id="menu-toggle"></i>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="aboutme.html">About me</a></li>
+                                <li><a href="design.html">Design</a></li>
+                                <li><a href="coding.html">Coding</a></li>
+                                <li><a href="http://infoweb.hornsby.tafensw.edu.au/~indigo04/wordpress/" target="_blank">CMS</a></li>
+                                <li><a href="contactme.html" class="current">Contact me</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <img alt="Angela Logo" src="images/angelafulogo300.png" class="logo" srcset="images/angelafulogo.png 415w, images/angelafulogo300.png 250w" sizes="(min-width: 600px) 415px, (max-width: 599px) 250px">
+                </div>
+            </header>
+            <main>
+                <div class="itemh100p">
+                    <div class="itemh">
+                        <form method="get" action="#" class="formC" id="contact-form" novalidate>
+                            <fieldset>
+                                <legend>Name</legend>
+                                <div class="wrapperInFieldset">
+                                    <label class="lbl inputLbl">First Name:</label>
+                                    <input type="text" name="firstname" id="firstname" class="inputTxt">
+                                    <div class="errorA" id="error-area-fn"></div>
+                                    <label class="lbl inputLbl">Last Name:</label>
+                                    <input type="text" name="lastname" id="lastname" class="inputTxt">
+                                    <div class="errorA" id="error-area-ln"></div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Contact</legend>
+                                <div class="wrapperInFieldset">
+                                    <label class="lbl inputLbl">Phone:</label>
+                                    <input type="text" name="phone" id="phone" class="inputTxt">
+                                    <div class="errorA" id="error-area-ph"></div>
+                                    <label class="lbl inputLbl">Mobile:</label>
+                                    <input type="text" name="mobile" id="mobile" class="inputTxt">
+                                    <div class="errorA" id="error-area-mb"></div>
+                                    <label class="lbl inputLbl">Email:</label>
+                                    <input type="email" name="email" id="email" class="inputTxt">
+                                    <div class="errorA" id="error-area-em"></div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Other</legend>
+                                <div class="wrapperInFieldset">
+                                    <label class="lbl">Comment:</label>
+                                    <div class="wrapperInFieldset">
+                                        <textarea name="comment" id="comment" cols="50" rows="10" class="inputTxt">
+				</textarea>
+                                        <div class="errorA" id="error-area-cm"></div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="wrapperButton">
+                                <input type="submit" name="btnimg" id="btnimg" value="go" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer class="footersticky">
+        <div class="wrapper">
+            <div class="copyright">Copyright &copy; <span id="cp-year"></span> Angela Rong FU</div>
+            <div class="socialicon">
+                <ul>
+                    <li><img src="images/twitter.png" alt="twitter"></li>
+                    <li><img src="images/pin.png" alt="pinterest"></li>
+                    <li><img src="images/facebook.png" alt="facebook"></li>
+                    <li><img src="images/sms.png" alt="sms"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/general.js">
+    </script>
+</body>
+
+</html>
